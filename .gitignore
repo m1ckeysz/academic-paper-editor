@@ -1,0 +1,106 @@
+# Generated skill packages
+skill.zip
+*.zip
+/dist/
+/build/
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+.cache/
+tmp/
+temp/
+
+# Local research workspaces -- keep manuscripts and experiments outside this repo
+paper/
+papers/
+project/
+projects/
+workspace/
+workspaces/
+research/
+data/
+datasets/
+results/
+outputs/
+experiments/
+runs/
+checkpoints/
+artifacts/
+
+# Large model and checkpoint files
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+
+# Common large experiment/data artifacts
+*.npy
+*.npz
+*.parquet
+*.feather
+*.arrow
+*.pkl
+*.pickle
+
+# LaTeX build artifacts if generated while testing locally
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
