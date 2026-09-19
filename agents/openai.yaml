@@ -1,0 +1,10 @@
+interface:
+  display_name: Academic Paper Editor
+  short_description: Project-aware paper review, polishing, revision, and drafting
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
